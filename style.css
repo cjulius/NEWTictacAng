@@ -1,0 +1,132 @@
+body{
+	width: 100%;
+	background-color: black;
+    background-image: url('http://static.hothdwallpaper.net/51af1fc24c53a43174.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box
+{
+   	opacity: 1.0;
+	height: 100px;
+	margin-bottom: 13px;
+	background-image: url('http://gametaffy.com/wp-content/uploads/2012/02/gameofthrones_logo.png');
+	background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cell {
+	width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+    float: left;
+    transition: 1s;
+    font-size: 100px;
+    color: #707070;
+    font-family: 'Almendra SC', serif;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.cell:hover {
+	background-color: #707070;
+}
+
+.clear {
+	clear:both;
+}
+
+.message {
+	margin: 5px;
+}
+.main {
+	width: 100%;
+}
+.gameBoard {
+	height: 470px;
+	width: 470px;
+	margin: 0 auto;
+}
+.column1, .column2 {
+    width: 220px;
+    height: 400px;
+    display: inline-block;
+    float: right;
+    background-image: url('http://www.westeros.org/GoT/Graphics/Gallery/GameOfThrones_Tyrion_01.png');
+    background-size: auto 100%;
+    color: #707070;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Almendra SC', serif;
+    font-size: 40px;
+    border: 8px solid #707070;
+    border-style: ridge;
+    margin-top: -419px;
+}
+.column2 {
+    float: left;
+    background-image: url('http://images4.fanpop.com/image/photos/17200000/Daenerys-Targaryen-game-of-thrones-17284597-750-1127.jpg');   
+}
+.column1{
+	margin-right: 10px;
+}
+img {
+	height: 150px;
+	width: 150px
+}
+
+.popUp {
+	background-image: url('https://archive.nyafuu.org/foolfuuka/boards/wg/image/1368/93/1368932415384.jpg');
+	height: 400px;
+	width: 400px;
+	opacity: 0.9;
+	display: none;
+	margin: auto 0;
+}
+input {
+   -moz-box-shadow:inset 0px 6px 37px 10px #120d12;
+    -webkit-box-shadow:inset 0px 6px 37px 10px #120d12;
+    box-shadow:inset 0px 6px 37px 10px #120d12;
+    background-color:transparent;
+    -webkit-border-top-left-radius:6px;
+    -moz-border-radius-topleft:6px;
+    border-top-left-radius:6px;
+    -webkit-border-top-right-radius:6px;
+    -moz-border-radius-topright:6px;
+    border-top-right-radius:6px;
+    -webkit-border-bottom-right-radius:6px;
+    -moz-border-radius-bottomright:6px;
+    border-bottom-right-radius:6px;
+    -webkit-border-bottom-left-radius:6px;
+    -moz-border-radius-bottomleft:6px;
+    border-bottom-left-radius:6px;
+    text-indent:0;
+    border:1px solid #1a151a;
+    display:inline-block;
+    color: white;
+    font-family:arial;
+    font-size:55px;
+    font-weight:bold;
+    font-style:normal;
+    height:75px;
+    line-height:95px;
+    width:300px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #a8a3a8;
+    opacity: 0.9;
+    margin-top: 15px;
+    margin-left: 490px;
+}
+input:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #261d26), color-stop(1, #ededed) );
+    background:-moz-linear-gradient( center top, #261d26 5%, #ededed 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#261d26', endColorstr='#ededed');
+    background-color:#261d26;
+}
+input:active {
+    position:relative;
+    top:1px;
