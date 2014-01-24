@@ -5,7 +5,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
 <script src="https://cdn.firebase.com/v0/firebase.js"></script>
 <script src="https://cdn.firebase.com/libs/angularfire/0.6.0/angularfire.min.js"></script>
-
+<link rel="stylesheet" type="text/css" href="style.css">
 <script type="text/javascript" src="main.js"></script>
 
 </head>
@@ -20,7 +20,7 @@
 			<div class="gameBoard">
 				<div>
 					<div class="message"><h1>{{winner}}</h1></div>
-					<div ng-repeat="box in boxes track by $index" x-ng-class="{cell:true, clear: $index % 3 == 0}" x-ng-click="takeTurn($index)">
+					<div ng-repeat="box in obj.boxes track by $index" x-ng-class="{cell:true, clear: $index % 3 == 0}" x-ng-click="takeTurn($index)">
 					<img src = "{{box}}" />
 					</div>
 				</div>
